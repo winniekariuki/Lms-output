@@ -5,6 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
+  
   },
   devServer: {
     hot: true,
@@ -67,7 +68,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "public/index.html",
-      filename: "public/index.html"
+      filename: "index.html"
     }),
   ],
 };
