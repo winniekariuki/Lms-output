@@ -103,4 +103,53 @@ ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
+h3{
+	font-style: oblique 40deg;
+  font-style: normal;
+}
+.services li{
+font-family: cursive;
+	font-size: 18px;
+}
+.wrapper {
+	
+	grid-template-columns: 215px 215px 215px;
+	grid-template-rows: 400px 400px 400px;
+	grid-gap: 5%;
+	grid-auto-rows: minmax(auto, 400px);
+	overflow: scroll;
+	width:100%;
+	margin-left: 0%;
+	margin-right: 0.5%;
+	float:center;
+	position: relative;
+	height: 600px;
+	background-color: #78aecc;
+ }
+.column{
+	height: 500px;
+	margin-top:50px;
+}
+.bottom{
+	height:100px;
+	background-color: #78aecc;
+	border: 1px ;
+	text-align: center;
 
+}
+.main-div{
+	display:grid;
+	height:100%;
+}
+.class{
+	height:10px;
+}
+hr{
+	width:100%;
+	align:left;
+	border-block-end-color: #01447e;
+}
+.contacts{
+	font-style: oblique;
+	font-size: 100%;
+}

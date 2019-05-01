@@ -14,7 +14,21 @@ const About = () => (
         </p>
         <p>A fashion house for every type of  woman.<br />We serve our customers with clothes from well known international fashion brands.<br />Fashion advice from our fashion experts at a free advice</p>
       </div>
+      <div class="right">
+        <p><h3>Services and products we offer:</h3>
+          <ul class="services">
+            <li>wedding gowns</li>
+            <li>halloween costumes</li>
+            <li>designer clothes</li>
+            <li>Ankara</li>
+            <li>hiring services for big occassions</li>
+            <li>styling and photography</li>
+          </ul>
+                  
+        </p>
+      </div>
     </div >
+    
     <div class="footer">
       <p class="copy">&copy; Copyright Covet Fashion 2018</p>
     </div>

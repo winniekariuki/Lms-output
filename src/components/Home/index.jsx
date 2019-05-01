@@ -9,9 +9,9 @@ const FormExampleForm = () => (
   <div class="container" >
     <div class="header"	>
       <ul class="breadcrumb">
-        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/products'>Home</NavLink></li>
         <li><NavLink to='/about'>About us</NavLink></li>
-        <li><NavLink to='/'>Contact us</NavLink></li>
+        <li><NavLink to='/contact'>Contact us</NavLink></li>
       </ul>
       <h1>Covet Fashion <img src="https://i.pinimg.com/originals/ea/aa/5f/eaaa5f39862b3a573f83b863c11a6f95.jpg" height="25" width="21" /></h1>
     </div>
